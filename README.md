@@ -1,7 +1,7 @@
-dnd5e-quickref
+dnd5e-referencia
 ==============
 
-Quick reference sheet for D&amp;D 5e
+Referencia Rápida para D&amp;D 5e
 
 
 Icons
