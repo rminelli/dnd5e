@@ -67,6 +67,7 @@ function init() {
     fill_section(data_environment_vision, "environment-vision", "Ambiente");
     fill_section(data_environment_cover, "environment-cover", "Ambiente");
 	fill_section(data_rest, "basic-rest", "Descanso");
+	fill_section(data_optional, "optional-actions", "Acción Opcional");
 	
 
     var modal = document.getElementById("modal");

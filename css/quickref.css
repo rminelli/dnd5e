@@ -149,7 +149,13 @@
 #section-reaction .text {
     color: DarkOliveGreen ;
 }
-
+#section-optional, #section-optional .item-icon {
+    background-color: DarkOrange;
+    border-color: DarkOrange;
+}
+#section-optional .text {
+    color: DarkOrange;
+}
 #section-condition, #section-condition .item-icon {
     background-color: FireBrick;
     border-color: FireBrick;
