@@ -117,7 +117,7 @@ data_movement = [
         description: "Arrastra o carga a la criatura mientras te mueves",
         reference: "PHB, pg. 195.",
         bullets: [
-            "Puedes arrastrar o trasnportar a la criatura agarrada, pero tu velocidad se reducirá a la mitad salvo si dicha criatura está dos o más categorías de tamaño por debajo de la tuya.",
+            "Puedes arrastrar o transportar a la criatura agarrada, pero tu velocidad se reducirá a la mitad salvo si dicha criatura está dos o más categorías de tamaño por debajo de la tuya.",
             "Ve la acción de <i>atacar</i> para ver cómo <i>agarrar</i> a una criatura."
         ]
     }
