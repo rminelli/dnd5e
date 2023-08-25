@@ -18,13 +18,15 @@
 <body class="page-background">
     <div class="page fontsize" data-size="fullscreen">
 	<!-- Header section -->
-        <div id="section-header" class="section-container">
-            <div class="section-title">
-                 D&D 5e - Referencia Rápida     
-                 <span class="float-right">2023</span>
-                 
-            </div>            
-        </div>
+    <div id="section-header" class="section-container">
+        <div class="section-title">
+             D&D 5e - Referencia Rápida - 2023     
+             <span class="float-right"> <button class="item-icon iconsize icon-help" onclick="show_modal('London')"></button>    </span>
+                        
+        </div>            
+    </div>
+    
+ 
         
         <!-- Movement section -->
         <div id="section-movement" class="section-container">
@@ -164,6 +166,22 @@
             </div>
         </div>
     </div>
+
+    <div id="Tokyo" class="city" style="display:none">
+        <h2>Tokyo</h2>
+        <p>Tokyo is the capital of Japan.</p>
+      </div>
+
+    <script>
+        function openCity(cityName) {
+          var i;
+          var x = document.getElementsByClassName("city");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          document.getElementById(cityName).style.display = "block";  
+        }
+        </script>
 
     <!-- Data -->
     <script type="text/javascript" src="js/data_movement.js" charset="utf-8"></script>

@@ -73,7 +73,7 @@ data_action = [
     },
     {
         title: "Esquivar (Dodge)",
-        icon: "aura",
+        icon: "dodging",
         subtitle: "Incrementa la defensa",
         description: "Te enfocas por completo en evitar ataques",
         reference: "PHB, pg. 192.",
