@@ -119,71 +119,71 @@
 /* Colors */
 /* ------------------------------------------------------------------------- */
 #section-header, #section-header .item-icon {
-    background-color: Black;
-    border-color: Black;
-}
-#section-header .text {
-    color: Black;
-}	
-#section-movement, #section-movement .item-icon {
-    background-color: maroon;
-    border-color: maroon;
-}
-#section-movement .text {
-    color: maroon;
-}
-
-#section-action, #section-action .item-icon {
     background-color: black;
     border-color: black;
 }
-#section-action .text {
+#section-header .text {
     color: black;
+}	
+#section-movement, #section-movement .item-icon {
+    background-color: darkred;
+    border-color: darkred;
+}
+#section-movement .text {
+    color: darkred;
+}
+
+#section-action, #section-action .item-icon {
+    background-color: navy;
+    border-color: navy;
+}
+#section-action .text {
+    color: navy;
 }
 
 #section-bonus-action, #section-bonus-action .item-icon {
-    background-color: indigo;
-    border-color: indigo;
+    background-color: darkmagenta;
+    border-color: darkmagenta;
 }
 #section-bonus-action .text {
-    color: indigo;
+    color: darkmagenta;
 }
 
 #section-reaction, #section-reaction .item-icon {
-    background-color: DarkOliveGreen ;
-    border-color: DarkOliveGreen ;
+    background-color: darkgreen ;
+    border-color: darkgreen ;
 }
 #section-reaction .text {
-    color: DarkOliveGreen ;
+    color: darkgreen ;
 }
 #section-optional, #section-optional .item-icon {
-    background-color: DarkOrange;
-    border-color: DarkOrange;
+    background-color: darkgoldenrod;
+    border-color: darkgoldenrod;
 }
 #section-optional .text {
-    color: DarkOrange;
+    color: darkgoldenrod;
 }
 #section-condition, #section-condition .item-icon {
-    background-color: FireBrick;
-    border-color: FireBrick;
+    background-color: lightseagreen;
+    border-color: lightseagreen;
 }
 #section-condition .text {
-    color: FireBrick;
+    color: lightseagreen;
 }
 
 #section-environment, #section-environment .item-icon {
-    background-color: ForestGreen;
-    border-color: ForestGreen;
+    background-color: darkorange;
+    border-color: darkorange;
 }
 #section-environment .text {
-    color: ForestGreen;
+    color: darkorange;
 }
 #section-rest, #section-rest .item-icon {
-    background-color: gray;
-    border-color: gray;
+    background-color: darkgray;
+    border-color: darkgray;
 }
 #section-rest.text {
-    color: gray;
+    color: darkgray;
 }
 
 

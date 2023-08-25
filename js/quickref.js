@@ -6,7 +6,7 @@ function add_quickref_item(parent, data, type) {
     var item = document.createElement("div");
     item.className += "item itemsize"
     item.innerHTML =
-    '\
+        '\
     <div class="item-icon iconsize icon-' + icon + '"></div>\
     <div class="item-text-container text">\
         <div class="item-title">' + title + '</div>\
@@ -64,11 +64,11 @@ function init() {
     fill_section(data_condition, "basic-conditions", "Condición");
     fill_section(data_environment_obscurance, "environment-obscurance", "Ambiente");
     fill_section(data_environment_light, "environment-light", "Ambiente");
-    fill_section(data_environment_vision, "environment-vision", "Ambiente");
+    fill_section(data_environment_vision, "environment-vision", "Amabiente");
     fill_section(data_environment_cover, "environment-cover", "Ambiente");
-	fill_section(data_rest, "basic-rest", "Descanso");
-	fill_section(data_optional, "optional-actions", "Acción Opcional");
-	
+    fill_section(data_rest, "basic-rest", "Descanso");
+    fill_section(data_optional, "optional-actions", "Acción Opcional");
+
 
     var modal = document.getElementById("modal");
     modal.onclick = hide_modal;
