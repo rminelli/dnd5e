@@ -1,7 +1,7 @@
 data_action = [
     {
         title: "Atacar",
-        icon: "crossed-swords",
+        icon: "broadsword",
         subtitle: "Ataque cuerpo a cuerpo o a distacia",
         description: "Realiza con tu arma un ataque cuerpo a cuerpo o a distancia",
         reference: "PHB, pgs. 192,194-195.",
@@ -130,7 +130,7 @@ data_action = [
     {
         title: "Esconderse",
         icon: "hood",
-        subtitle: "",
+        subtitle: "Intentar ocultarse",
         description: "Intentar ocultarse",
         reference: "PHB, pg. 192.",
         bullets: [
@@ -144,7 +144,7 @@ data_action = [
     {
         title: "Buscar",
         icon: "magnifying-glass",
-        subtitle: "",
+        subtitle: "Dedicas tu atención a encontrar algo",
         description: "Dedicas tu atención a encontrar algo",
         reference: "PHB, pg. 193.",
         bullets: [
