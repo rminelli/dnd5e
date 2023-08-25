@@ -32,34 +32,10 @@
 		                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 		                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 	})();
-    function openCity(evt, cityName) {
-  // Declare all variables
-  var i, tabcontent, tablinks;
-
-  // Get all elements with class="tabcontent" and hide them
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-
-  // Get all elements with class="tablinks" and remove the class "active"
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-
-  // Show the current tab, and add an "active" class to the button that opened the tab
-  document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.className += " active";
-}
 </script>
 </head>
 <body class="page-background">
-    <div class="tab">
-        <button class="tablinks" onclick="openCity(event, 'Referencia')">Referencia</button>
-        <button class="tablinks" onclick="openCity(event, 'Reglas - La Guardia Gris')">Reglas</button>
-      </div>
-    <div id="Referencia" class="page fontsize" data-size="fullscreen">
+    <div class="page fontsize" data-size="fullscreen">
 	<!-- Header section -->
         <div id="section-header" class="section-container">
             <div class="section-title">
